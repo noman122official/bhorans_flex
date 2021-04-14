@@ -576,7 +576,13 @@ section {
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
+.section_1{
+  margin-left: 330px;
+  size: 10;
+  border-color: #2db6fa;
+}
 .values .box {
+  align-self: center;
   padding: 10px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
@@ -2378,8 +2384,13 @@ section {
   color: #012970;
 }
 
+.mission_box{
+  box-shadow: #4154f1;
+}
 
 .mission-text{
+  text-align: left;
+  text-justify: center;
   font-size: 20px;
   font-weight: 600;
   margin-left: 50px;
